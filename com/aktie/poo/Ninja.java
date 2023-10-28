@@ -2,24 +2,67 @@ package com.aktie.poo;
 
 public class Ninja {
     
-    String nome;
+    private String nome;
 
-    int idade;
+    private int idade;
 
-    String aldeia;
+    private String aldeia;
 
-    String cla;
+    private String cla;
     
-    String equipamento;
+    private String equipamento;
 
-    String nomeJutso;
+    private String nomeJutso;
 
-    void apresentarse() {
+    public Ninja(String nome, int idade, String aldeia, String cla, String equipamento, String nomeJutso) {
+        this.nome = nome;
+        this.idade = idade;
+        this.aldeia = aldeia;
+        this.cla = cla;
+        this.equipamento = equipamento;
+        this.nomeJutso = nomeJutso;
+    }
+
+    public void apresentarse() {
         System.out.println("Olá meu nome é " + nome + " sou do cla " + cla);
     }
 
-    void realizarJutso() {
+    public void realizarJutso() {
         System.out.println(nome + " realizando jutso " + nomeJutso);
+    }
+
+    public void realizarAniversario() {
+        this.idade = idade + 1;
+    }
+
+    @Override
+    public String toString() {
+        return "Ninja [nome=" + nome + ", idade=" + idade + ", aldeia=" + aldeia + ", cla=" + cla + ", equipamento="
+                + equipamento + ", nomeJutso=" + nomeJutso + "]";
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public String getAldeia() {
+        return aldeia;
+    }
+
+    public String getCla() {
+        return cla;
+    }
+
+    public String getEquipamento() {
+        return equipamento;
+    }
+
+    public String getNomeJutso() {
+        return nomeJutso;
     }
 
 }
