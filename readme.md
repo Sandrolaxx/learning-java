@@ -9,6 +9,9 @@
 * [Vetores e Matrizes](/com/aktie/basics/arrays/vetores.md)
 * [Estruturas de Repetição](/com/aktie/basics/loops/estruturasRepeticao.md)
 
+#### POO:
+* [Classes e Objetos](/com/aktie/poo/class_objects/classesobjetos.md)
+* [Encapsulamento](/com/aktie/poo/encapsulation/encapsulamento.md)
 
 ---
 
@@ -20,3 +23,7 @@
 * [Control Structures](/com/aktie/basics/controlstructures/controlStructures.md)
 * [Arrays](/com/aktie/basics/arrays/arrays.md)
 * [Loop](/com/aktie/basics/loops/loops.md)
+
+#### POO:
+* [Classes and Objects](/com/aktie/poo/class_objects/classesobjects.md)
+* [Encapsulation](/com/aktie/poo/encapsulation/encapsulation.md)

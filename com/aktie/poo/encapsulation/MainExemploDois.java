@@ -1,4 +1,6 @@
-package com.aktie.poo;
+package com.aktie.poo.encapsulation;
+
+import com.aktie.poo.Ninja;
 
 public class MainExemploDois {
     
