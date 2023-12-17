@@ -12,6 +12,7 @@
 #### POO:
 * [Classes e Objetos](/com/aktie/poo/class_objects/classesobjetos.md)
 * [Encapsulamento](/com/aktie/poo/encapsulation/encapsulamento.md)
+* [Herança](/com/aktie/poo/heritage/heranca.md)
 
 ---
 
@@ -27,3 +28,4 @@
 #### POO:
 * [Classes and Objects](/com/aktie/poo/class_objects/classesobjects.md)
 * [Encapsulation](/com/aktie/poo/encapsulation/encapsulation.md)
+* [Heritage](/com/aktie/poo/heritage/heritage.md)
