@@ -35,6 +35,10 @@ public class Ninja {
         this.idade = idade + 1;
     }
 
+    public void realizarInvocacao() {
+        System.out.println("Realizar invocação de um animal...");
+    }
+
     @Override
     public String toString() {
         return "Ninja [nome=" + nome + ", idade=" + idade + ", aldeia=" + aldeia + ", cla=" + cla + ", equipamento="

@@ -26,7 +26,13 @@ public class AlunoNinja extends Ninja {
 
     @Override
     public void apresentarse() {
-        System.out.println("Olá meu nome é " + getNome() + " sou do cla " + getCla() + " e meu time é " + this.nomeTime);
+        System.out
+                .println("Olá meu nome é " + getNome() + " sou do cla " + getCla() + " e meu time é " + this.nomeTime);
+    }
+    
+    @Override
+    public void realizarInvocacao() {
+        System.out.println("Realizando invocação de um doguinho🐶");
     }
 
 }
