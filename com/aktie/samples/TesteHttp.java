@@ -1,4 +1,4 @@
-package src.com.aktietech.samples;
+package com.aktie.samples;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

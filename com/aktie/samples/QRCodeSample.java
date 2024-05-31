@@ -1,4 +1,4 @@
-package src.com.aktietech.samples;
+package com.aktie.samples;
 
 import java.awt.Graphics2D;
 import java.awt.Image;
